@@ -7,7 +7,7 @@ entity demux2x6 is
         c0 : out std_logic_vector(4 downto 0);
         c1 : out std_logic_vector(4 downto 0);
         e : in std_logic_vector(4 downto 0);
-        sel : in bit
+        sel : in std_logic
     );
 end entity;
 architecture comutar of demux2x6 is
